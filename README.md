@@ -1,2 +1,5 @@
-# paper_review
-This repo server as the paper review for the data science presentation
+# Paper anaylsis Reslo protein sequence generation
+
+This repo server as the paper Reslo analysis for the data science presentation. 
+
+![Reslo](/pictures/xxx.png)
