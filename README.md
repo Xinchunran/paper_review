@@ -14,8 +14,8 @@ Protein modeling is an increasingly popular area of machine learning research. S
 #### ProteinGAN: A generative adversarial network that generates functional protein sequences (https://github.com/Biomatter-Designs/ProteinGAN)
 De novo protein design for catalysis of any desired chemical reaction is a long standing goal in protein engineering, due to the broad spectrum of technological, scientific and medical applications. Currently, mapping protein sequence to protein function is, however, neither computationionally nor experimentally tangible. Here we developed ProteinGAN, a specialised variant of the generative adversarial network that is able to 'learn' natural protein sequence diversity and enables the generation of functional protein sequences. ProteinGAN learns the evolutionary relationships of protein sequences directly from the complex multidimensional amino acid sequence space and creates new, highly diverse sequence variants with natural-like physical properties. Using malate dehydrogenase as a template enzyme, we show that 24% of the ProteinGAN-generated and experimentally tested sequences are soluble and display wild-type level catalytic activity in the tested conditions in vitro, even in highly mutated (>100 mutations) sequences. ProteinGAN therefore demonstrates the potential of artificial intelligence to rapidly generate highly diverse novel functional proteins within the allowed biological constraints of the sequence space.
 
-#### ESM: Evolutionary Scale Modeling
+#### ESM: Evolutionary Scale Modeling (https://github.com/facebookresearch/esm)
 This is a large protein language model used in current SOTA task. However it does not contain the capability in protein sequence design
 
 ### Summary: 
-Currently most of the protein language model are using Transformer based methods to capture both local and global information
+Currently most of the protein language model are using Transformer based methods to capture both local and global information. However, there are not specific models for the DMS data. The model Relso 
