@@ -17,4 +17,5 @@ De novo protein design for catalysis of any desired chemical reaction is a long 
 #### ESM: Evolutionary Scale Modeling
 This is a large protein language model used in current SOTA task. However it does not contain the capability in protein sequence design
 
-
+### Summary: 
+Currently most of the protein language model are using Transformer based methods to capture both local and global information
