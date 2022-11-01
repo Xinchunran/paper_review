@@ -23,7 +23,7 @@ This is a large protein language model used in current protein related downstrea
 Currently most of the protein language model are using Transformer based methods to capture both local and global information. And then using the sequence representation to conduct other protein structure/function related tasks. However, there are not specific models for the DMS data. The model ReLSO, a deep transformer-based autoencoder, combined both language model and latent space gradient-based methods to generate funtion-enhanced protein sequences.
 ![anit-ranibizumab design](./pics/anit-ranibizumab.png)
 
-### ReLSO contributions:
+### ReLSO contributions
 *The model use transformer based encoder
 *The model construct sequence-function relationships 
 *The model re-normalize the convex latent space for better sequence optimization
