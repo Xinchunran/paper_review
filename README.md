@@ -2,7 +2,7 @@
 
 This repo server as the paper ReLSO analysis primarily and ESM analysis for the data science presentation. 
 ![ReLSO](./pics/relso.png)
-![ESM2](./pics/esmi_articles.png)
+![ESM2](./pics/esm_articles.png)
 
 The model can use the weights to generate the protien sequences with lower fitness. How to represent the protein sequences remains a question.
 
@@ -24,18 +24,18 @@ Currently most of the protein language model are using Transformer based methods
 ![anit-ranibizumab design](./pics/anit-ranibizumab.png)
 
 ### ReLSO contributions
-*The model use transformer based encoder
-*The model construct sequence-function relationships 
-*The model re-normalize the convex latent space for better sequence optimization
-* A gradient-ascent algorithm for generating new sequences from the latent space
+1. The model use transformer based encoder
+2. The model construct sequence-function relationships 
+3. The model re-normalize the convex latent space for better sequence optimization
+4.  A gradient-ascent algorithm for generating new sequences from the latent space
 
 #### ReLSO architecture
 ![ReLSO](./pics/model_architecture.png)
 
 #### Training details
 ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively. The sequence optimization is using gradient ascent.
-*Protein sequences are using one-hot embedding to convert into input
-*The latent space is regularized with KNN (k-nearest-neighbor)
+1. Protein sequences are using one-hot embedding to convert into input
+2. The latent space is regularized with KNN (k-nearest-neighbor)
 
 #### Pseudocode:
 
