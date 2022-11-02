@@ -50,7 +50,7 @@ ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively
 
 **Hyperparameters**: *L*<sub>max</sub>, *C*<sub>s</sub> *=* 1024,*C*<sub>z</sub> *=* 128
 
-*z | z<sub> *<-* z *+* MultiHeadSelfAttention(*z*) 
+*  | z *<-* z *+* MultiHeadSelfAttention(*z*) 
 
 
 
