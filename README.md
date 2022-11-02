@@ -80,7 +80,9 @@ for x ∈ [*l*<sub>z</sub>] : 𝒆<sub>𝑡</sub> ←  One_hot(𝒛[𝑡]) + �
 * | *rep_Z* *<-* Encoder_Block(*X*)
 * For *l* in range(*l*):
 * | *Y* *<-* Decoder_Block(*rep_Z*)
-* o *<-* Regression_Head(*Y*)
+
+* ouput *<-* Regression_Head(*Y*)
+
 **End**
 
 
