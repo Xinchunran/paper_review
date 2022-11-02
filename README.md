@@ -4,7 +4,7 @@ This repo server as the paper ReLSO analysis primarily and ESM analysis for the 
 ![ReLSO](./pics/relso.png)
 ![ESM2](./pics/esm_articles.png)
 
-The model can use the weights to generate the protien sequences with lower fitness. How to represent the protein sequences remains a question.
+The ReLSO model are used to combined both sequence generation task (for protein design) and protein function prediction task (for designed protein sequnece  evaluation)
 
 ## Overview
 
@@ -19,7 +19,6 @@ De novo protein design for catalysis of any desired chemical reaction is a long 
 #### ESM: Evolutionary Scale Modeling (https://github.com/facebookresearch/esm)
 This is a large protein language model used in current protein related downstreams taski, which can be considered as GPT3 in biomolecules. However it does not contain the protein sequence design module or function prediction heads.
 ![ESM atlas](./pics/esm.png)
-
 
 ### Summary: 
 Currently most of the protein language model are using Transformer based methods to capture both local and global information. And then using the sequence representation to conduct other protein structure/function related tasks. However, there are not specific models for the DMS data. The model ReLSO, a deep transformer-based autoencoder, combined both language model and latent space gradient-based methods to generate funtion-enhanced protein sequences.
@@ -39,6 +38,7 @@ Currently most of the protein language model are using Transformer based methods
 ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively. The sequence optimization is using gradient ascent.
 1. Protein sequences are using one-hot embedding to convert into input
 2. The latent space is regularized with KNN (k-nearest-neighbor)
+3. The explain of the ReLSO are trained on Gifford which contain 60000+ sequence-enrichment datapoints. Sequences share one wild type sequence
 
 #### Pseudocode:
 ##### Encoder Block:
@@ -92,4 +92,24 @@ for x ∈ [*l*<sub>z</sub>] : 𝒆<sub>𝑡</sub> ←  One_hot(𝒛[𝑡]) + �
 #### RowMultiHeadSelfAttention:
 ![Row attention sequences](./pics/Rowattention.png)
 
+### Datasets - different potential application
+1. Gifford - anti-Ranibizumab binding affinity enhancing
+2. Tape - general protein sequence representation.
+3. GB1 - dataset for the IgG human antibody design
 
+## Questions
+### 1. Why do we need neural network in protein sequences?
+### 2. Why does the transformer can help encode protein sequences?
+### 3. Which area of models can also apply on biomolecule related task?
+
+## Discussion
+### Single sequence structure prediction
+The structure prediction questions are closed by AlphaFold2. But single sequence protein structure prediction task remains
+
+### Protein sequence paradox
+The "paradox" is that most small proteins fold on a millisecond or even microsecond time scale.
+
+### Transformer vs CNN
+The CNN might be reaching comparable preformance in protein structure prediction (TFold (200+ ResNet) vs RosetTAFold)
+
+### protein-molecules complexes (protein-DNA, portein-RNA, protein-ligand, protein-protein, protein-peptide)
