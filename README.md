@@ -76,10 +76,20 @@ ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively
 *l*<sub>z</sub> ← length(𝒛)
 for x ∈ [*l*<sub>z</sub>] : 𝒆<sub>𝑡</sub> ←  One_hot(𝒛[𝑡]) + 𝑾<sub>𝒑</sub> [:, 𝑡]
 𝑿 ← [𝒆<sub>1</sub>, 𝒆<sub>2</sub>, . . . 𝒆<sub>*l*</sub>]
+
+Encode
+
 * For *l* in range(*l*) do
 * | *rep_Z* *<-* Encoder_Block(*X*)
+* return rep_Z
+
+Decode
+
 * For *l* in range(*l*):
 * | *Y* *<-* Decoder_Block(*rep_Z*)
+* return Y
+
+Head
 
 * ouput *<-* Regression_Head(*Y*)
 
