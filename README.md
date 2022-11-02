@@ -115,3 +115,13 @@ The CNN might be reaching comparable preformance in protein structure prediction
 ### protein-molecules complexes (protein-DNA, portein-RNA, protein-ligand, protein-protein, protein-peptide)
 
 ## References
+<a id="1"><a>
+```bibtex
+@article{rao2019evaluating,
+  title={Evaluating protein transfer learning with TAPE},
+  author={Rao, Roshan and Bhattacharya, Nicholas and Thomas, Neil and Duan, Yan and Chen, Peter and Canny, John and Abbeel, Pieter and Song, Yun},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019}
+}
+```
