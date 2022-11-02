@@ -112,7 +112,11 @@ The "paradox" is that most small proteins fold on a millisecond or even microsec
 ### Transformer vs CNN
 The CNN might be reaching comparable preformance in protein structure prediction (TFold (200+ ResNet) vs RosetTAFold)
 
+### Protein mutants design
+The current sequence generative model are not able to train on different types of protein sequences, which limits generalization capability.
+
 ### protein-molecules complexes (protein-DNA, portein-RNA, protein-ligand, protein-protein, protein-peptide)
+
 
 ## References
 <a id="1">[1]</a> TAPE
