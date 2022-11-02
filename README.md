@@ -41,16 +41,13 @@ ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively
 2. The latent space is regularized with KNN (k-nearest-neighbor)
 
 #### Pseudocode:
-
 ##### Encoder Block:
-
 **Input**: 𝒛 ∈ 𝑉*<sub>𝒛</sub>; protein sequence of amino acids; 𝒙 ∈ 𝑉*<sub>𝒙</sub>, amino acids token IDs.
 **Output**: a ∈ R, where a indicate the desired values.
 **Hyperparameters**: *l* Encoder Layers, *L*<sub>max</sub>, *C*<sub>s</sub> *=* 1024,*C*<sub>z</sub> *=* 128
-
 * For *l* in range(*l*):
 *  | p *<-* PositionEncoding(x)
-*  | z *<-* z *+* MultiHeadSelfAttention(*z*)
+*  | z *<-* z *+* RowMultiHeadSelfAttention(*z*)
 *  | z *<-* LayerNorm(*z*)
 *  | z *<-* z *+* Linear(*z*)
 *  | z *<-* z *+* Linear(*z*)
@@ -90,5 +87,9 @@ for x ∈ [*l*<sub>z</sub>] : 𝒆<sub>𝑡</sub> ←  One_hot(𝒛[𝑡]) + �
 ### ESM contributions:
 
 *The model is trained on the entire protein sequences database.
+
+#### psedocode:
+#### RowMultiHeadSelfAttention:
+![Row attention sequences](./pics/Rowattention.png)
 
 
