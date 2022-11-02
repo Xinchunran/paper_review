@@ -115,7 +115,7 @@ The CNN might be reaching comparable preformance in protein structure prediction
 ### protein-molecules complexes (protein-DNA, portein-RNA, protein-ligand, protein-protein, protein-peptide)
 
 ## References
-<a id="1">[1]</a>
+<a id="1">[1]</a> TAPE
 ```bibtex
 @article{rao2019evaluating,
   title={Evaluating protein transfer learning with TAPE},
@@ -125,7 +125,7 @@ The CNN might be reaching comparable preformance in protein structure prediction
   year={2019}
 }
 ```
-<a id="2">[2]</a>
+<a id="2">[2]</a> ProteinGAN
 ```bibtex
 @article{repecka2021expanding,
   title={Expanding functional protein sequence spaces using generative adversarial networks},
@@ -139,7 +139,7 @@ The CNN might be reaching comparable preformance in protein structure prediction
 }
 ```
 
-<a id="3">[3]</a>
+<a id="3">[3]</a> ESMFold
 ```bibtex
 @article{lin2022language,
   title={Language models of protein sequences at the scale of evolution enable accurate structure prediction},
@@ -151,7 +151,7 @@ The CNN might be reaching comparable preformance in protein structure prediction
 ```
 
 
-<a id="4">[4]</a>
+<a id="4"></a> ReLSO
 ```bibtex
 @article{castro2022transformer,
   title={Transformer-based protein generation with regularized latent space optimization},
