@@ -103,6 +103,12 @@ for x ∈ [*l*<sub>z</sub>] : 𝒆<sub>𝑡</sub> ←  One_hot(𝒛[𝑡]) + �
 ### 3. Which area of models can also apply on biomolecule related task?
 
 ## Discussion
+### Protein mutants design
+The current sequence generative model are not able to train on different types of protein sequences, which limits generalization capability.
+
+### Froce smooth
+Froce smooth can make the sequence easier to trap in a local minima
+
 ### Single sequence structure prediction
 The structure prediction questions are closed by AlphaFold2. But single sequence protein structure prediction task remains
 
@@ -111,9 +117,6 @@ The "paradox" is that most small proteins fold on a millisecond or even microsec
 
 ### Transformer vs CNN
 The CNN might be reaching comparable preformance in protein structure prediction (TFold (200+ ResNet) vs RosetTAFold)
-
-### Protein mutants design
-The current sequence generative model are not able to train on different types of protein sequences, which limits generalization capability.
 
 ### protein-molecules complexes (protein-DNA, portein-RNA, protein-ligand, protein-protein, protein-peptide)
 
