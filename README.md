@@ -50,7 +50,8 @@ ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively
 
 * For *l* in range(*l*):
 *  | p *<-* PositionEncoding(x)
-*  | z *<-* z *+* MultiHeadSelfAttention(*z*) 
+*  | z *<-* z *+* MultiHeadSelfAttention(*z*)
+*  | z *<-* LayerNorm(*z*)
 *  | z *<-* z *+* Linear(*z*)
 *  | z *<-* z *+* Linear(*z*)
 * representation_z *<-* Bottleneck(z)
@@ -76,9 +77,9 @@ ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively
 
 ##### ReLSO:
 *l*<sub>z</sub> ← length(𝒛)
-for 𝑡 ∈ [*l*<sub>z</sub>] : 𝒆<sub>𝑡</sub> ←  One_hot(𝒛[𝑡]) + 𝑾<sub>𝒑</sub> [:, 𝑡]
+for x ∈ [*l*<sub>z</sub>] : 𝒆<sub>𝑡</sub> ←  One_hot(𝒛[𝑡]) + 𝑾<sub>𝒑</sub> [:, 𝑡]
 𝑿 ← [𝒆<sub>1</sub>, 𝒆<sub>2</sub>, . . . 𝒆<sub>*l*</sub>]
-* For *l* in range(*l*):
+* For *l* in range(*l*) do
 * | *rep_Z* *<-* Encoder_Block(*X*)
 * For *l* in range(*l*):
 * | *Y* *<-* Decoder_Block(*rep_Z*)
