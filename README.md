@@ -47,9 +47,13 @@ ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively
 **Input**: 𝒛 ∈ 𝑉*<sub>𝒛</sub>; protein sequence of amino acids; 𝒙 ∈ 𝑉*<sub>𝒙</sub>, amino acids token IDs.
 **Output**: a ∈ R, where a indicate the desired values.
 **Hyperparameters**: *l* Layers, *L*<sub>max</sub>, *C*<sub>s</sub> *=* 1024,*C*<sub>z</sub> *=* 128
+
 *l*<sub>z</sub> ← length(𝒛)
+
 for 𝑡 ∈ [*l*<sub>z</sub>] : 𝒆<sub>𝑡</sub> ← 2 x conv(𝒛[𝑡], GELU) + 𝑾<sub>𝒑</sub> [:, 𝑡]
+
 𝑿 ← [𝒆<sub>1</sub>, 𝒆<sub>2</sub>, . . . 𝒆<sub>*l*</sub>]
+
 * For *l* in range(*l*):
 *  | p *<-* PositionEncoding(x)
 *  | z *<-* z *+* MultiHeadSelfAttention(*z*) 
