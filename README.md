@@ -4,13 +4,13 @@ This repo server as the paper ReLSO analysis primarily and ESM analysis for the 
 ![ReLSO](./pics/relso.png)
 ![ESM2](./pics/esm_articles.png)
 
-The ReLSO model are used to combined both sequence generation task (for protein design) and protein function prediction task (for designed protein sequnece  evaluation)
+The ReLSO model are used to combined both sequence [generation]((https://github.com/Yijia-Xiao/ProteinLM)) task (for protein design) and protein function prediction task (for designed protein sequnece  evaluation)
 
 ## Overview
 
 ### Relevant work
 
-#### [TAPE:Evaluating Protein Transfer Learning with TAPE (https://github.com/Yijia-Xiao/ProteinLM)](https://github.com/songlab-cal/tape/blob/6d345c2b2bbf52cd32cf179325c222afd92aec7e/tape/models/modeling_utils.py#L843)
+#### [TAPE:Evaluating Protein Transfer Learning with TAPE](https://github.com/songlab-cal/tape/blob/6d345c2b2bbf52cd32cf179325c222afd92aec7e/tape/models/modeling_utils.py#L843)
 The first Semi-supervised learning use in protein function prediction and protein structure prediction. The semi-supervised method help lower down the cost of acquiring supervised protein labels. To facilitate progress in this field, Yun s Song et. al.[[1]](#1) introduce the Tasks Assessing Protein Embeddings (TAPE), a set of five biologically relevant semi-supervised learning tasks spread across different domains of protein biology, such as stability, secondary structure prediction, binding affinity prediction etc.
 
 #### [ProteinGAN: A generative adversarial network that generates functional protein sequences](https://github.com/Biomatter-Designs/ProteinGAN)
