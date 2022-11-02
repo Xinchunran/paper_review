@@ -35,18 +35,21 @@ Currently most of the protein language model are using Transformer based methods
 ![ReLSO](./pics/model_architecture.png)
 
 #### Training details
+
 ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively. The sequence optimization is using gradient ascent.
 1. Protein sequences are using one-hot embedding to convert into input
 2. The latent space is regularized with KNN (k-nearest-neighbor)
 
 #### Pseudocode:
-**Input**: 𝒛 ∈ 𝑉*<sub>𝒛</sub>; protein sequence of amino acids; 𝒙 ∈ 𝑉*<sub>𝒙</sub>, amino acids token IDs.
-**Output**: a ∈ R, where a indicte the desired values
-**Hyperparameters**: 
+
+** Input**: 𝒛 ∈ 𝑉*<sub>𝒛</sub>; protein sequence of amino acids; 𝒙 ∈ 𝑉*<sub>𝒙</sub>, amino acids token IDs.
+** Output**: a ∈ R, where a indicte the desired values
+** Hyperparameters**: 
 
 
 
 ### ESM contributions:
+
 *The model is trained on the entire protein sequences database.
 
 
