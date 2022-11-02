@@ -43,8 +43,10 @@ ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively
 #### Pseudocode:
 
 **Input**: 𝒛 ∈ 𝑉*<sub>𝒛</sub>; protein sequence of amino acids; 𝒙 ∈ 𝑉*<sub>𝒙</sub>, amino acids token IDs.
-**Output**: a ∈ R, where a indicte the desired values
-**Hyperparameters**: 
+
+**Output**: a ∈ R, where a indicate the desired values.
+
+**Hyperparameters**: *l*<sub>max</sub>, L, *C*<sub>s</sub> *=* 1024,*C*<sub>z</sub> *=* 128
 
 
 
