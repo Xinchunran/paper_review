@@ -40,6 +40,9 @@ ReLSO were training on three different datasets TAPE, Gifford, GB1, repsectively
 2. The latent space is regularized with KNN (k-nearest-neighbor)
 
 #### Pseudocode:
+**Input**: 𝒛 ∈ 𝑉*<sub>𝒛</sub>; protein sequence of amino acids; 𝒙 ∈ 𝑉*<sub>𝒙</sub>, amino acids token IDs.
+**Output**: a ∈ R, where a indicte the desired values
+**Hyperparameters**: 
 
 
 
