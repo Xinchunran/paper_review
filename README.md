@@ -113,3 +113,5 @@ The "paradox" is that most small proteins fold on a millisecond or even microsec
 The CNN might be reaching comparable preformance in protein structure prediction (TFold (200+ ResNet) vs RosetTAFold)
 
 ### protein-molecules complexes (protein-DNA, portein-RNA, protein-ligand, protein-protein, protein-peptide)
+
+## References
