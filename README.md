@@ -151,7 +151,7 @@ The CNN might be reaching comparable preformance in protein structure prediction
 ```
 
 
-<a id="4"></a> ReLSO
+<a id="4">[4]</a> ReLSO
 ```bibtex
 @article{castro2022transformer,
   title={Transformer-based protein generation with regularized latent space optimization},
