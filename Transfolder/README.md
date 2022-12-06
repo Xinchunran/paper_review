@@ -4,10 +4,11 @@ Molecular Dynamic (MD) simulation has been employed to explore the molecular dyn
 Protein folding is a process by which a polypeptide chain folds to become a biologically active protein in its native 3-dimensional structure. Due to the high computational demand explained above, how to understand the protein folding mechanism has not been fully explained. There are a number of reported factors that play significant roles in protein folding.
 - Protein folding is mediated by entropic effect.
 - Numerous local minima along the energy landscape that allow proteins to fold more actively.
+
 In order to understand the protein folding mechanism, it is inevitable to develop a powerful tool to aid researchers investigate the dynamic effects involved in the protein folding process. To address this, we developed a **prototype** protein structural generative model by integrating Transformers model for reserach and Vanderbilt University DS-5899 Project purposes: Transfolder.
 
 ## Model Architecture
-(src img="https://user-images.githubusercontent.com/33948358/206032007-055c46f6-f22f-41b6-89ce-5fe32c3d1cd5.png" width=50%)
+<src img="https://user-images.githubusercontent.com/33948358/206032007-055c46f6-f22f-41b6-89ce-5fe32c3d1cd5.png" width=50%>
 
 ## Transfolder output
 
