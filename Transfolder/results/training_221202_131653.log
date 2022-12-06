@@ -1,0 +1,138 @@
+INFO:root:Clean dataset class: <class 'foldingdiff.datasets.CathCanonicalAnglesOnlyDataset'>
+INFO:root:Clean dataset class: <class 'foldingdiff.datasets.CathCanonicalAnglesOnlyDataset'>
+INFO:root:Clean dataset class: <class 'foldingdiff.datasets.CathCanonicalAnglesOnlyDataset'>
+INFO:root:Creating data splits: ['train', 'validation', 'test']
+INFO:root:Creating data splits: ['train', 'validation', 'test']
+INFO:root:Creating data splits: ['train', 'validation', 'test']
+INFO:root:Loading cached full dataset from /gpfs23/scratch/ranx/workspace/foldingdiff/foldingdiff/cache_canonical_structures.pkl
+INFO:root:Loading cached full dataset from /gpfs23/scratch/ranx/workspace/foldingdiff/foldingdiff/cache_canonical_structures.pkl
+INFO:root:Loading cached full dataset from /gpfs23/scratch/ranx/workspace/foldingdiff/foldingdiff/cache_canonical_structures.pkl
+INFO:root:Hash matches between codebase and cached values!
+INFO:root:Removing structures shorter than 40 residues excludes 536/30931 --> 30395 sequences
+INFO:root:Split train contains 24316 structures
+INFO:root:Hash matches between codebase and cached values!
+INFO:root:Removing structures shorter than 40 residues excludes 536/30931 --> 30395 sequences
+INFO:root:Hash matches between codebase and cached values!
+INFO:root:Split train contains 24316 structures
+INFO:root:Removing structures shorter than 40 residues excludes 536/30931 --> 30395 sequences
+INFO:root:Split train contains 24316 structures
+INFO:root:Offsetting features ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] by means [ 1.3271058   1.4533169   1.51879    -1.4707093   0.03703886  3.1276548
+  1.9404677   2.0353985   2.1225007 ]
+INFO:root:Length of angles: 40-1202, mean 153.59088665898997
+INFO:root:CATH canonical angles only dataset with ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] (subset idx [3, 4, 5, 6, 7, 8])
+INFO:root:Offsetting features ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] by means [ 1.3271058   1.4533169   1.51879    -1.4707093   0.03703886  3.1276548
+  1.9404677   2.0353985   2.1225007 ]
+INFO:root:Loading cached full dataset from /gpfs23/scratch/ranx/workspace/foldingdiff/foldingdiff/cache_canonical_structures.pkl
+INFO:root:Length of angles: 40-1202, mean 153.59088665898997
+INFO:root:Offsetting features ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] by means [ 1.3271058   1.4533169   1.51879    -1.4707093   0.03703886  3.1276548
+  1.9404677   2.0353985   2.1225007 ]
+INFO:root:CATH canonical angles only dataset with ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] (subset idx [3, 4, 5, 6, 7, 8])
+INFO:root:Length of angles: 40-1202, mean 153.59088665898997
+INFO:root:Loading cached full dataset from /gpfs23/scratch/ranx/workspace/foldingdiff/foldingdiff/cache_canonical_structures.pkl
+INFO:root:CATH canonical angles only dataset with ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] (subset idx [3, 4, 5, 6, 7, 8])
+INFO:root:Loading cached full dataset from /gpfs23/scratch/ranx/workspace/foldingdiff/foldingdiff/cache_canonical_structures.pkl
+INFO:root:Hash matches between codebase and cached values!
+INFO:root:Removing structures shorter than 40 residues excludes 536/30931 --> 30395 sequences
+INFO:root:Split validation contains 3039 structures
+INFO:root:Offsetting features ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] by means [ 1.32696     1.4532896   1.5188396  -1.4708108   0.04546339  3.127869
+  1.9404374   2.035157    2.1227736 ]
+INFO:root:Length of angles: 40-759, mean 151.50279697268837
+INFO:root:CATH canonical angles only dataset with ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] (subset idx [3, 4, 5, 6, 7, 8])
+INFO:root:Hash matches between codebase and cached values!
+INFO:root:Loading cached full dataset from /gpfs23/scratch/ranx/workspace/foldingdiff/foldingdiff/cache_canonical_structures.pkl
+INFO:root:Removing structures shorter than 40 residues excludes 536/30931 --> 30395 sequences
+INFO:root:Split validation contains 3039 structures
+INFO:root:Offsetting features ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] by means [ 1.32696     1.4532896   1.5188396  -1.4708108   0.04546339  3.127869
+  1.9404374   2.035157    2.1227736 ]
+INFO:root:Length of angles: 40-759, mean 151.50279697268837
+INFO:root:Hash matches between codebase and cached values!
+INFO:root:Removing structures shorter than 40 residues excludes 536/30931 --> 30395 sequences
+INFO:root:Split validation contains 3039 structures
+INFO:root:CATH canonical angles only dataset with ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] (subset idx [3, 4, 5, 6, 7, 8])
+INFO:root:Offsetting features ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] by means [ 1.32696     1.4532896   1.5188396  -1.4708108   0.04546339  3.127869
+  1.9404374   2.035157    2.1227736 ]
+INFO:root:Length of angles: 40-759, mean 151.50279697268837
+INFO:root:Loading cached full dataset from /gpfs23/scratch/ranx/workspace/foldingdiff/foldingdiff/cache_canonical_structures.pkl
+INFO:root:CATH canonical angles only dataset with ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] (subset idx [3, 4, 5, 6, 7, 8])
+INFO:root:Loading cached full dataset from /gpfs23/scratch/ranx/workspace/foldingdiff/foldingdiff/cache_canonical_structures.pkl
+INFO:root:Hash matches between codebase and cached values!
+INFO:root:Removing structures shorter than 40 residues excludes 536/30931 --> 30395 sequences
+INFO:root:Split test contains 3040 structures
+INFO:root:Offsetting features ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] by means [ 1.3274158   1.4532684   1.518744   -1.4739823   0.06882543  3.1274395
+  1.9405681   2.0354939   2.1229067 ]
+INFO:root:Length of angles: 40-617, mean 153.33782894736842
+INFO:root:CATH canonical angles only dataset with ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] (subset idx [3, 4, 5, 6, 7, 8])
+INFO:root:Updating valid/test mean offset to [ 1.3271058   1.4533169   1.51879    -1.4707093   0.03703886  3.1276548
+  1.9404677   2.0353985   2.1225007 ]
+INFO:root:Using <class 'foldingdiff.datasets.NoisedAnglesDataset'> for noise
+INFO:root:Getting cosine variance schedule with 1000 timesteps
+INFO:root:Hash matches between codebase and cached values!
+INFO:root:Getting cosine variance schedule with 1000 timesteps
+INFO:root:Getting cosine variance schedule with 1000 timesteps
+INFO:root:train: NoisedAnglesDataset wrapping <foldingdiff.datasets.CathCanonicalAnglesOnlyDataset object at 0x2b58d1b4a4f0> with 24316 examples with cosine-1000 with variance scales 1.0 and 1.0
+INFO:root:validation: NoisedAnglesDataset wrapping <foldingdiff.datasets.CathCanonicalAnglesOnlyDataset object at 0x2b58d1b2dc10> with 3039 examples with cosine-1000 with variance scales 1.0 and 1.0
+INFO:root:test: NoisedAnglesDataset wrapping <foldingdiff.datasets.CathCanonicalAnglesOnlyDataset object at 0x2b58cbc45520> with 3040 examples with cosine-1000 with variance scales 1.0 and 1.0
+INFO:root:Using loss function: smooth_l1
+INFO:root:Auto detected 6 inputs
+INFO:root:Using HuggingFace encoder implementation
+INFO:root:Removing structures shorter than 40 residues excludes 536/30931 --> 30395 sequences
+INFO:root:Split test contains 3040 structures
+INFO:torch.distributed.nn.jit.instantiator:Created a temporary directory at /tmp/tmpphrcqnu3
+INFO:torch.distributed.nn.jit.instantiator:Writing /tmp/tmpphrcqnu3/_remote_module_non_scriptable.py
+INFO:root:Offsetting features ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] by means [ 1.3274158   1.4532684   1.518744   -1.4739823   0.06882543  3.1274395
+  1.9405681   2.0354939   2.1229067 ]
+INFO:root:Length of angles: 40-617, mean 153.33782894736842
+INFO:root:Hash matches between codebase and cached values!
+INFO:root:CATH canonical angles only dataset with ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] (subset idx [3, 4, 5, 6, 7, 8])
+INFO:root:Updating valid/test mean offset to [ 1.3271058   1.4533169   1.51879    -1.4707093   0.03703886  3.1276548
+  1.9404677   2.0353985   2.1225007 ]
+INFO:root:Using <class 'foldingdiff.datasets.NoisedAnglesDataset'> for noise
+INFO:root:Getting cosine variance schedule with 1000 timesteps
+INFO:root:Getting cosine variance schedule with 1000 timesteps
+INFO:root:Getting cosine variance schedule with 1000 timesteps
+INFO:root:train: NoisedAnglesDataset wrapping <foldingdiff.datasets.CathCanonicalAnglesOnlyDataset object at 0x2b73378f8610> with 24316 examples with cosine-1000 with variance scales 1.0 and 1.0
+INFO:root:validation: NoisedAnglesDataset wrapping <foldingdiff.datasets.CathCanonicalAnglesOnlyDataset object at 0x2b73378dad30> with 3039 examples with cosine-1000 with variance scales 1.0 and 1.0
+INFO:root:test: NoisedAnglesDataset wrapping <foldingdiff.datasets.CathCanonicalAnglesOnlyDataset object at 0x2b73319f34f0> with 3040 examples with cosine-1000 with variance scales 1.0 and 1.0
+INFO:root:Using loss function: smooth_l1
+INFO:root:Auto detected 6 inputs
+INFO:root:Using HuggingFace encoder implementation
+INFO:torch.distributed.nn.jit.instantiator:Created a temporary directory at /tmp/tmpaa04i9e2
+INFO:torch.distributed.nn.jit.instantiator:Writing /tmp/tmpaa04i9e2/_remote_module_non_scriptable.py
+INFO:root:Removing structures shorter than 40 residues excludes 536/30931 --> 30395 sequences
+INFO:root:Split test contains 3040 structures
+INFO:root:Mapping loss smooth_l1 to list of losses corresponding to angular [True, True, True, True, True, True]
+INFO:root:Model callbacks: [<pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint object at 0x2b58d1b4a550>, <pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint object at 0x2b58d1b4abe0>, <pytorch_lightning.callbacks.lr_monitor.LearningRateMonitor object at 0x2b58d1dfc4c0>]
+INFO:root:Using cuda with strategy <pytorch_lightning.strategies.ddp.DDPStrategy object at 0x2b58d1dfc670>
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 2
+INFO:root:Offsetting features ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] by means [ 1.3274158   1.4532684   1.518744   -1.4739823   0.06882543  3.1274395
+  1.9405681   2.0354939   2.1229067 ]
+INFO:root:Length of angles: 40-617, mean 153.33782894736842
+INFO:root:Mapping loss smooth_l1 to list of losses corresponding to angular [True, True, True, True, True, True]
+INFO:root:Model callbacks: [<pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint object at 0x2b73378f8d00>, <pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint object at 0x2b73378f8c10>, <pytorch_lightning.callbacks.lr_monitor.LearningRateMonitor object at 0x2b7337ba97f0>]
+INFO:root:Using cuda with strategy <pytorch_lightning.strategies.ddp.DDPStrategy object at 0x2b7337ba9ac0>
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 1
+INFO:root:CATH canonical angles only dataset with ['phi', 'psi', 'omega', 'tau', 'CA:C:1N', 'C:1N:1CA'] (subset idx [3, 4, 5, 6, 7, 8])
+INFO:root:Updating valid/test mean offset to [ 1.3271058   1.4533169   1.51879    -1.4707093   0.03703886  3.1276548
+  1.9404677   2.0353985   2.1225007 ]
+INFO:root:Using <class 'foldingdiff.datasets.NoisedAnglesDataset'> for noise
+INFO:root:Getting cosine variance schedule with 1000 timesteps
+INFO:root:Getting cosine variance schedule with 1000 timesteps
+INFO:root:Getting cosine variance schedule with 1000 timesteps
+INFO:root:train: NoisedAnglesDataset wrapping <foldingdiff.datasets.CathCanonicalAnglesOnlyDataset object at 0x2ad75ac6aa90> with 24316 examples with cosine-1000 with variance scales 1.0 and 1.0
+INFO:root:validation: NoisedAnglesDataset wrapping <foldingdiff.datasets.CathCanonicalAnglesOnlyDataset object at 0x2ad75ac551f0> with 3039 examples with cosine-1000 with variance scales 1.0 and 1.0
+INFO:root:test: NoisedAnglesDataset wrapping <foldingdiff.datasets.CathCanonicalAnglesOnlyDataset object at 0x2ad754d674f0> with 3040 examples with cosine-1000 with variance scales 1.0 and 1.0
+INFO:root:Using loss function: smooth_l1
+INFO:root:Auto detected 6 inputs
+INFO:root:Using HuggingFace encoder implementation
+INFO:torch.distributed.nn.jit.instantiator:Created a temporary directory at /tmp/tmp5m1rztsn
+INFO:torch.distributed.nn.jit.instantiator:Writing /tmp/tmp5m1rztsn/_remote_module_non_scriptable.py
+INFO:root:Mapping loss smooth_l1 to list of losses corresponding to angular [True, True, True, True, True, True]
+INFO:root:Model callbacks: [<pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint object at 0x2ad75ac6af70>, <pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint object at 0x2ad75ac6a100>, <pytorch_lightning.callbacks.lr_monitor.LearningRateMonitor object at 0x2ad75af1a2b0>]
+INFO:root:Using cuda with strategy <pytorch_lightning.strategies.ddp.DDPStrategy object at 0x2ad75af1a040>
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 3
+INFO:torch.distributed.distributed_c10d:Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
